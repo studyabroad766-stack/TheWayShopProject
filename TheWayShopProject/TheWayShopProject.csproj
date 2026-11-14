@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Customer\TheWayShopProject\**" />
+    <Content Remove="wwwroot\Customer\TheWayShopProject\**" />
+    <EmbeddedResource Remove="wwwroot\Customer\TheWayShopProject\**" />
+    <None Remove="wwwroot\Customer\TheWayShopProject\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Customer\fonts\" />
+  </ItemGroup>
+
+</Project>
